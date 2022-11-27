@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> Memes, Jokes and Riddles</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="../css/styles.css">
+        <script src="../javascript/script.js"></script>
+    </head>
+    <body>
+        <header>
+           <h1>Welcome to the giggles and jiggles page!</h1>
+        </header>
+        <main>
+
+            <section class="content">
+                <h2>Output </h2>
+                <h3>Programmer Memes</h3>
+                <div class="showMeme"></div>
+                <h3>Tell me something funny!</h3>
+                <div class="joke-content"></div>
+                <h3>Give me some wisdom...</h3>
+                <div class="quote-content"></div>
+                <h3>I want a riddle!</h3>
+                <div class="riddle-content"></div>
+            </section>
+            <section class="sidebar">
+                <h2>Actions</h2>
+                <button onclick="showMeme()">Show a Meme</button>
+                <button onclick="showJoke()">Tell Me a Joke</button>
+                <button onclick="showQuote()">Random Quote</button>
+                <button onclick="showRiddle()">Riddle Me</button>
+                <button class="reveal-btn" onclick="revealAnswers()">Reveal Riddle Answer</button>                
+            </section>
+
+        </main>        
+        <footer class="footer">
+            <h4>Code challenge by <a href="https://www.twitter.com/metadrino" target="_top">@metaDrino</a> </h4>            
+        </footer>
+    </body>
+</html>
